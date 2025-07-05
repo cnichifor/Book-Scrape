@@ -40,3 +40,4 @@ with open("titles.csv", "w", newline="", encoding="utf-8") as f:
     for title in titles:
         writer.writerow([title])
 print("Saved", len(titles), "titles in titles.csv")
+
